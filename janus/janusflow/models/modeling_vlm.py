@@ -29,8 +29,8 @@ from transformers import (
     LlamaForCausalLM,
 )
 from transformers.models.llama.modeling_llama import LlamaRMSNorm
-from janus.janusflow.models.clip_encoder import CLIPVisionTower
-from janus.janusflow.models.uvit import ShallowUViTEncoder, ShallowUViTDecoder
+from .clip_encoder import CLIPVisionTower
+from .uvit import ShallowUViTEncoder, ShallowUViTDecoder
 import torch.nn as nn
 
 
